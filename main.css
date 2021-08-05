@@ -3,68 +3,88 @@ body{
     padding: 0;
 }
 .header{
-    background: white;
+    background: gray;
 }
 .container{
-    width: 100%;
+    width: 1350px;
     margin: auto;
 }
-
-.navbar{
-    padding: 30px 0px 20px 0px;
-    display:flex;
-    justify-content: space-around;
-    color: rgb(88, 86, 86);
-    color:black;
+.container-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
 .logo{
+    border: 1px solid black;
     float: left;
     margin-right: 15px;
     margin-left: 40px;
+    padding: 7px;
 }
-
-
-.menu-left-items {
-    display:flex;
-    padding-top:15px;
+.logo-name{
+    font-size: 30px;
 }
-
-.left-item{
-    padding-right: 20px;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 15px;
+.menu-area{
+    padding-top: 20px;
+    color: black;
 }
-
-.menu-right-items {
-    display:flex;
-    padding-top:15px;
+.menu-item{
+    float: left;
+    margin-right: 25px;
 }
-
-.right-item {
-    padding: 0px 15px 0px 7px;
-    font-size: 15px;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+.menu-item-with-mark{
+    float: left;
+    margin-right: 3px;
 }
+.down-arrow {
+    float: left;
+    margin-right: 25px;
+}
+.down-arrow img{
+    width: 15px;
+    height: 9px;
+    object-fit: cover;
+}
+.auth-area{
 
+    margin-right: 40px;
+}
+.shopping-bag{
+    float: right;
+}
+.shopping-bag img{
+    float: right;
+    width: 33px;
+    height: 33px;
+}
+.person {
+    float: right;
+    margin-right: 10px;
+}
+.person img{
+    float: right;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+}
+.down-arrow-right img{
+    float: right;
+    width: 15px;
+    height: 9px;
+    margin-right: 20px;
+    padding-top: 7px;
+}
+.country img{
+    float: right;
+    width: 27px;
+    height: 20px;
+    margin-right: 3px;
+}
+.locate{
+    float: right;
+    margin-right: 35px;
+}
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
-}
-
-.banner{
-    background-color: rgba(223, 230, 233,0.5);
-    height:70px;
-    display: flex;
-    align-items: center;
-}
-.banner p {
-    margin: 0 auto;
-    color:rgba(45, 52, 54,0.8);
-    font-size: 15px;
-}
-
-.down-arrow{
-    width:7px;
 }
