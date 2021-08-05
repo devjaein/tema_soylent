@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: beige;
+}
+.container {
+    width: 1350px;
+    margin: auto;
+}
+.container-left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo {
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+}
+.menu {
+    background-color: blue;
+}
+.menu-logo {
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+.menu-logo > a {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.menu-item {
+    float: left;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.my {
+    float: right;
+}
+.my-text {
+    float: left;
+    margin-top: 30px;
+    border-right: 1px solid gray;
+}
+.my-text > a {
+    margin-right: 25px;
+}
+.my-picture1 {
+    float: left;
+    margin-left: 25px;
+}
+.my-picture1 > img {
+    width: 30px;
+    margin-top: 25px;
+}
+.my-picture2 {
+    float: left;
+    margin-left: 25px;
+}
+.my-picture2 > img {
+    width: 40px;
+    height: auto;
+    margin-top: 18px;
+}
+.my-picture3 {
+    float: left;
+    margin-left: 25px;
+}
+.my-picture3 > img {
+    width: 30px;
+    height: auto;
+    margin-top: 24px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
