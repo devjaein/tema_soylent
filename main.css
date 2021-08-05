@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: gray;
+}
+.container{
+    width: 1350px;
+    margin: auto;
+}
+.container-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    border: 1px solid black;
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+    padding: 7px;
+}
+.logo-name{
+    font-size: 30px;
+}
+.menu-area{
+    padding-top: 20px;
+    color: black;
+}
+.menu-item{
+    float: left;
+    margin-right: 25px;
+}
+.menu-item-with-mark{
+    float: left;
+    margin-right: 3px;
+}
+.down-arrow {
+    float: left;
+    margin-right: 25px;
+}
+.down-arrow img{
+    width: 15px;
+    height: 9px;
+    object-fit: cover;
+}
+.auth-area{
+
+    margin-right: 40px;
+}
+.shopping-bag{
+    float: right;
+}
+.shopping-bag img{
+    float: right;
+    width: 33px;
+    height: 33px;
+}
+.person {
+    float: right;
+    margin-right: 10px;
+}
+.person img{
+    float: right;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+}
+.down-arrow-right img{
+    float: right;
+    width: 15px;
+    height: 9px;
+    margin-right: 20px;
+    padding-top: 7px;
+}
+.country img{
+    float: right;
+    width: 27px;
+    height: 20px;
+    margin-right: 3px;
+}
+.locate{
+    float: right;
+    margin-right: 35px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
